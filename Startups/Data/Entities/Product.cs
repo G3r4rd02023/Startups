@@ -36,5 +36,13 @@ namespace Startups.Data.Entities
 
         public ICollection<ProductImage> ProductImages { get; set; }
 
+        public ICollection<Inventory> Inventories { get; set; }
+
+        public ICollection<OrderDetail> OrderDetails{ get; set; }
+
+        public ICollection<SaleDetail> SaleDetails { get; set; }
+
+        public ICollection<PurchaseDetail> PurchaseDetails { get; set; }
+
     }
 }
